@@ -12,8 +12,8 @@ jobs:
     - name: repo-sync
       uses: wei/git-sync@v2
       with:
-        source_repo: "Accengage/cordova-sdk-plugin"
+        source_repo: "Accengage/accengage-ios-sdk-releases"
         source_branch: "*"
-        destination_repo: "urbanairship/accengage-cordova-sdk-plugin"
+        destination_repo: "urbanairship/accengage-ios-sdk-releases"
         destination_branch: "*"
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
